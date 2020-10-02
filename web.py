@@ -11,8 +11,6 @@ def signal_handler(sig, frame):
     file.close()
     sys.exit(0)
 
-
-
 try:
     signal.signal(signal.SIGINT, signal_handler)
 
